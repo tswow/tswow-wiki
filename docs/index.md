@@ -6,7 +6,7 @@ nav_exclude: true
 
 # TSWoW Wiki
 
-This is a wiki for installing, learning and becoming proficient with the TSWoW.
+This is a wiki for installing, learning and becoming proficient with TSWoW.
 
 TSWoW is a modding framework centered around the TypeScript programming language for the 3.3.5 version of World of Warcraft.
 
