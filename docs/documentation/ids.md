@@ -85,9 +85,3 @@ function Main(events: TSEventHandlers) {
         }
     })}
 ```
-
-## Technical
-
-The system code for persistent allocation is currently stored in `wow/data/Ids`, while all ID range definitions and temporary allocation are stored in `wow/wotlk/std/Ref/Ids.ts`.
-
-The server core files that loads IDs are in `TrinityCore/src/server/game/TsWow/Scripting/Public/TSIDs.h` and `TrinityCore/src/server/game/TsWow/Scripting/Private/TSEventLoader.cpp`
