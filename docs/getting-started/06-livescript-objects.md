@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Livescript Objects
-nav_index: 6
+nav_order: 6
 ---
 
 # Livescript Objects

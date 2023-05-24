@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Compiling (Linux)
-nav_index: 3
+nav_order: 3
 ---
 
 # Compiling (Linux)

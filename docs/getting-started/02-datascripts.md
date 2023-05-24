@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Datascripts Basics
-nav_index: 2
+nav_order: 2
 ---
 
 # Datascripts Basics

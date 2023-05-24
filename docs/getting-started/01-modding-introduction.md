@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Modding Introduction
-nav_index: 1
+nav_order: 1
 ---
 
 # Modding Introduction

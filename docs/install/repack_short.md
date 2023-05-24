@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Repack (Short)
-nav_index: 1
+nav_order: 1
 ---
 
 # Repack (Short)

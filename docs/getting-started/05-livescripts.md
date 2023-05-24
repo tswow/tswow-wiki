@@ -1,7 +1,7 @@
 ---
 layout: default
 title: LiveScripts
-nav_index: 5
+nav_order: 5
 ---
 
 # LiveScripts
