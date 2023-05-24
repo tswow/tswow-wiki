@@ -6,7 +6,7 @@ nav_exclude: true
 
 # Test Island
 
-The **Test Island** is a TSWoW example module filled to the brim with code examples to create all kinds of mods in a completely functional and self-contained map. Examples on the island are simplistic on purpose to serve as references for beginners and veterans alike. 
+The **Test Island** is a TSWoW example module filled with code examples to create different mods in a self-contained custom map. Examples on the island are simplistic on purpose to serve as references for beginners and veterans alike. 
 
 ## [**Download from GitHub**](https://github.com/tswow/tswow-tests.git)
 
