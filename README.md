@@ -3,7 +3,7 @@
 Port of the Read the Docs theme to Jekyll that can be used with GitHub Pages.
 
 You can preview it in the
-[user documentation](https://carlosperate.github.io/jekyll-theme-rtd):
+[user documentation](https://carlosperate.github.io/tswow-wiki-new):
 
 ![theme screenshot](docs/assets/img/screenshot.png)
 
@@ -22,9 +22,9 @@ This theme is currently a **Work-In-Progress** but, while some things might be
 broken, it should be already usable.
 
 Missing features are listed in the GitHub issues with the
-[to-do label](https://github.com/carlosperate/jekyll-theme-rtd/issues?q=is%3Aissue+is%3Aopen+label%3Ato-do),
+[to-do label](https://github.com/carlosperate/tswow-wiki-new/issues?q=is%3Aissue+is%3Aopen+label%3Ato-do),
 and any known issues are listed with the
-[bug label](https://github.com/carlosperate/jekyll-theme-rtd/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
+[bug label](https://github.com/carlosperate/tswow-wiki-new/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
 
 Contributions are very welcomed!
 
@@ -34,7 +34,7 @@ Contributions are very welcomed!
 This README contains mostly the developer documentation to edit this theme.
 
 To learn how to use this theme for your own website or docs check out the
-[user documentation](https://carlosperate.github.io/jekyll-theme-rtd).
+[user documentation](https://carlosperate.github.io/tswow-wiki-new).
 
 - [🚀 Using this theme with GitHub Pages](#-using-this-theme-with-github-pages)
 - [👩‍💻 Developer Documentation](#-developer-documentation)
@@ -49,7 +49,7 @@ To learn how to use this theme for your own website or docs check out the
 ## 🚀 Using this theme with GitHub Pages
 
 The fastest way to use this theme is with GitHub Pages, check out the
-[Quick Start Guide from the user documentation](https://carlosperate.github.io/jekyll-theme-rtd/quickstart.html).
+[Quick Start Guide from the user documentation](https://carlosperate.github.io/tswow-wiki-new/quickstart.html).
 
 ## 👩‍💻 Developer Documentation
 
@@ -113,7 +113,7 @@ inside a "docs" folder, and therefore in the "docs" category in the left
 navigation bar and page URLs.
 
 On the other hand the root of the website built and served with
-[GitHub Pages](https://carlosperate.github.io/jekyll-theme-rtd) is the
+[GitHub Pages](https://carlosperate.github.io/tswow-wiki-new) is the
 "docs" folder, so the left navigation bar will show the child folder as
 categories and the URLs will be different.
 
@@ -158,7 +158,7 @@ $ pipenv run python -m http.server 8080
 ## 👨‍👩‍👧‍👦 Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/carlosperate/jekyll-theme-rtd.
+https://github.com/carlosperate/tswow-wiki-new.
 
 This project is intended to be a safe, welcoming space for collaboration, and
 contributors are expected to adhere to the
@@ -178,6 +178,6 @@ Copyright © 2014, Tom Christie, all rights reserved, and released under the
 [BSD 2-Clause "Simplified" License](LICENSE-mkdocs).
 
 The theme modifications to port it Jekyll can be seen
-[here](https://github.com/carlosperate/jekyll-theme-rtd/compare/dddce9f13fde24c03aee4533158c43091120d47e...master).
+[here](https://github.com/carlosperate/tswow-wiki-new/compare/dddce9f13fde24c03aee4533158c43091120d47e...master).
 This and all new features are released under the
 [BSD 2-Clause "Simplified" License](LICENSE).
