@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting Started
-nav_hidden: true
+nav_exclude: true
 ---
 
 # Getting Started
