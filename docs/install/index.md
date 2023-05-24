@@ -6,16 +6,19 @@ nav_exclude: true
 
 # Install
 
-Installing TSWoW is generally a simple process. You have a few options:
+Installing TSWoW is generally a simple process. Compared to other cores, TSWoW bundles or automatically downloads most dependencies on Windows even when building from source.
 
-- [Repack](./repack)
+## Table of Contents
+
+- [**Repack**](./repack)
     - The best place to set up a full TSWoW environment
 
-- [Quickstart](./repack_short)
-    - The fastest way to set up a TSWoW server
+- [**Quickstart**](./repack_short)
+    - The fastest way to set up a TSWoW server.
+    - Skips setup of development environment.
 
-- [Compile](./compiling)
+- [**Compile**](./compiling)
     - Building TSWoW from source code, allowing you to modify the internal server code.
 
-- [Compile (Linux)](./compiling-linux)
+- [**Compile (Linux)**](./compiling-linux)
     - Building TSWoW on Linux (experimental)

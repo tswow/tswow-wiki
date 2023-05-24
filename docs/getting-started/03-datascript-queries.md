@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Datascripts Queries
+title: Datascript Queries
 nav_order: 3
 ---
 

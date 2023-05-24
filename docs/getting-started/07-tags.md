@@ -6,7 +6,7 @@ nav_order: 7
 
 # Tags
 
-While livescripts and datascripts cannot communicate directly, sometimes it is useful to be able to reference entities created in datascripts from livescripts, which is especially useful for attaching events to specific entities.
+While livescripts and datascripts cannot communicate directly, sometimes it is useful to be able to reference entities created in datascripts from livescripts, especially for attaching events to specific entities.
 
 In this tutorial, we will learn how to attach a livescript to the spell we created in the earlier [datascript tutorial about spells](./04-datascript-references).
 

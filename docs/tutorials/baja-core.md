@@ -7,6 +7,12 @@ title: Baja-Core
 
 Baja-Core is a demo library that gives real world examples of TSWoW.
 
+Contains various modules such as:
+- emoji modules
+- infinite dungeons
+- housing/farming
+- runtime item generation
+
 ## [**Download from GitHub**](https://github.com/bajahouse/baja-core)
 
 <table class="gt" style="table-layout: fixed; width: 100%;">
