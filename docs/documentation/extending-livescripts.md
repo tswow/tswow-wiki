@@ -43,7 +43,7 @@ For example, let's pretend that we want to add the method `TSPlayer::SetLevel`. 
 
 We can now compile the core, and if all went well we should have a new livescript method available to our livescripts.
 
-#### Handling strings, arrays, or maps in Lua functions
+### Handling strings, arrays, or maps in Lua functions
 
 If you want to expose methods that take strings, arrays, maps to lua you need to specify separate convertor functions, because lua doesn't understand optional arguments or the string/collection classes tswow uses.
 
@@ -70,7 +70,7 @@ You do not need to change anything else in `global.d.ts` or the original method 
 
 Arrays and Maps can be handled similarly, and you can find examples for how to convert them and what types to use in `TSGlobal.h`, `TSGlobal.cpp` and `TSGlobalLua.cpp`.
 
-#### Handling optional arguments in Lua functions
+### Handling optional arguments in Lua functions
 
 Lua has no concept of C++ optional arguments, so if we want to expose functions with optional arguments, we must create separate lua functions for each possible number of parameters.
 
@@ -113,7 +113,7 @@ ts_player.set_function("CallOptionalArguments", sol::override(
 
 You do not need to change anything else in `global.d.ts` or the original method declarations.
 
-#### Adding a new LiveScript global function
+## Adding a new LiveScript global function
 
 Global functions are registered very similar to TS* class methods, with the only difference that in their public declarations it is important to prefix their public header declaration with the `TS_GAME_API` (or aliased as `TC_GAME_API`):
 
@@ -129,7 +129,7 @@ state.set_function("MyLivescriptFunction",MyLivescriptFunction)
 
 Handling strings, arrays, maps or optional arguments in Lua works the same for global functions as with class methods.
 
-### Adding a new LiveScript event
+## Adding a new LiveScript event
 
 Let's pretend that we want to add a new player event "Player.OnLevelChanged". This event is already implemented in tswow, but is used here as a simple example.
 
@@ -156,7 +156,7 @@ Let's pretend that we want to add a new player event "Player.OnLevelChanged". Th
   ```
 We can now compile the core, and if all went well we should have a new event available to our livescripts.
 
-#### ID-bound events
+### ID-bound events
 
 Some event categories, such as `Creature`, have events that can be called both for **all** creatures in the server, but also for individual creature templates.
 
@@ -173,7 +173,7 @@ FIRE_ID(GetCreatureTemplate()->events.id,Creature,MyCustomCreatureEvent,TSCreatu
 Note that events fired with the `FIRE_ID` macro automatically calls the `FIRE` macro for the event it receives so that the event fires both bound and unbound listeners.
 You should **not** make a separate call to `FIRE` if you already call `FIRE_ID`, and doing so will cause the event to fire twice for unbound listeners.
 
-#### Passing values by reference to events
+### Passing values by reference to events
 
 In C++, a common way to allow functions or events to manipulate variables (especially numbers, booleans and strings) is to pass the value _by reference_, e.g:
 
@@ -217,7 +217,7 @@ MyMutableStringEvent(callback: (player: TSPlayer, value: TSMutableString) => voi
 
 ## Contributing Changes to TSWoW
 
-We are generally very welcoming of proposed additions to our livescripting API, but contributions should follow some guidelines for us to accept them into our official repository:
+We are generally welcoming of proposed additions to our livescripting API, but contributions should follow some guidelines for us to accept them into our official repository:
  
 - It is a good idea to discuss new additions with us before working on them, to make sure it's something we feel is useful for our users in general. This is especially true for larger additions such as completely new event categories or TS* classes.
 - Both events and functions should (with very few exceptions) always be available to both LiveScripts and Lua scripts, so adding a working Lua declaration is necessary.

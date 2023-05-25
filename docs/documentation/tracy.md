@@ -12,7 +12,7 @@ When enabled, tracy can be used to track function calls both in the core and in 
 
 This article will outline specific configurations needed to make tracy work with tswow, but for general usage and how to set up the tracy server you can refer to the [official tracy documentation](https://github.com/wolfpld/tracy/releases/latest/download/tracy.pdf).
 
-### Notes
+## Notes
 - The tracy project refers to its gui application that's used to view profiling data as the "tracy server". This should not be confused with the tswow worldserver, which runs the "tracy client".
 - TSWoW always builds tracy with on-demand profiling, so data is only collected when a tracy server is actively connected to the worldserver.
 - Tracy is currently set up to work with the 0.8.1 version of the tracy server, but we might try to upgrade this to automatically follow the latest released version in the future. If you get errors that the tracy version is out of date, try either version 0.8.1 or the latest version released on tracys official repository.
