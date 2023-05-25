@@ -6,11 +6,9 @@ nav_order: 1
 
 # Lesson 1: Hello World
 
-This is an introductory tutorial to writing TypeScript aimed at TSWoW developers who has never written any code before.
+In this lesson, we will learn how to set up a temporary coding environment for the following lessons and write our first program.
 
-Many TSWoW users haven't found this tutorial necessary to learn how to write basic `datascripts`, which is to a large extent just like filling out a form with static values. However, to do things like `livescripts` we do need a solid grasp on the fundamentals of computer programming to achieve much with them.
-
-You don't need to install anything to follow this tutorial. Instead, we will use an online code editor called _PlayCode_ for code examples and assignments.
+You don't need to install anything to follow these tutorials. Instead, we will use an online code editor called _PlayCode_ for code examples and assignments.
 
 ## The basic code window
 

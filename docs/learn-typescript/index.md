@@ -6,11 +6,9 @@ nav_exclude: true
 
 # Learn TypeScript
 
-This section contains a practical introduction to the TypeScript programming language aimed at new developers who wants to learn it to use with TSWoW specifically.
+This section contains a practical introduction to the TypeScript programming language aimed at new developers who wants to learn it to use with TSWoW specifically. It might work as someone's first introduction to computer language, but if you feel stuck you may need to seek out some other resources.
 
-There are other TypeScript resources out there, but they usually assume usage with frameworks like ReactJS that aren't relevant at all for TSWoW.
-
-I've tried to write these to work as someone's first introduction to computer programming in general, but I'm not a teacher and you might want to seek out additional resources if you feel stuck.
+These tutorials shouldn't be necessary to learn how to write `datascripts`, as those rarely need to consist of real code and function just as well as glorified configuration files, but for `livescripts` it is necessary to understand how the computer executes things.
 
 If you already have a good grasp on computer programming for another language, you can probably skip these tutorials and head directly for [getting-started](./getting-started).
 

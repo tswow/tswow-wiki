@@ -6,7 +6,7 @@ nav_order: 5
 
 # Lesson 5: Loops
 
-Loops are a more advanced form of control flow that allow us to tell the program to keep doing something until some boolean value no longer holds.
+Loops are a more advanced form of control flow that allow us to tell the program to keep doing something until some condition no longer holds.
 
 There are two basic loop types that every programmer should know, the numeric `for` loop and the `while` loop.
 
