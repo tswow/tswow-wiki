@@ -18,6 +18,9 @@ TSWoW is a modding framework centered around the TypeScript programming language
 - [**Getting Started**](./getting-started)
     - _Introductory tutorials for completely new users_
 
+- [**Migrating**](./migrating)
+    - _Migrating to TSWoW from other cores_
+
 - [**Documentation**](./documentation)
     - _Formal documentation_
 
