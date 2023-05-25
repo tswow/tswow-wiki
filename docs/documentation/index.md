@@ -19,7 +19,7 @@ This sections contains more in-depth documentation for TSWoW.
 - [**Livescripts**](./livescripts)
     - [**Livescripts (C++)**](./livescripts-cxx)
         - _Specifics for the C++ Livescript backend_
-    - [**Livesripts (Lua)**][./livescripts-lua]
+    - [**Livesripts (Lua)**](./livescripts-lua)
         - _Specifics for the Lua livescript backend_
     - [**Livescript Extensions**](./extending-livescripts)
         - _Exposing new core functions and adding your own event emitters._ 
