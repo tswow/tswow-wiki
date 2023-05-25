@@ -114,7 +114,7 @@ export function SharedFunction() {
 
 # Using Lua
 
-Since [version 12](https://github.com/tswow/tswow/releases/tag/v0.12-beta), you can write lua directly in your addons.
+It is possible to write lua instead of TypeScript directly into your AddOns. If no TypeScript/Lua interop is desired, this is as simple as just creating Lua files instead of TypeScript files and add them to a special file called `after.toc`, that works just like a normal FrameXML or AddOn toc file.
 
 ## Lua Modules (Calling Typescript from Lua / Calling Lua from TypeScript)
 

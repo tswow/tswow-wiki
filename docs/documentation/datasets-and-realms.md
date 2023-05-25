@@ -8,7 +8,7 @@ nav_order: 500
 
 TSWoW supports managing multiple realms from a single installation, and additionally managing separate sets of module data that should be applied for each realm.
 
-Since version 0.13, realms and datasets are stored in the special module endpoints `datasets` and `realms`.
+Realms and datasets are stored in the special module endpoints `datasets` and `realms`.
 
 ## Realms
 

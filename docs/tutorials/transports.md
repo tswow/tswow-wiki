@@ -6,11 +6,9 @@ nav_order: 2
 
 # Transports
 
-_Transports are available from version 0.13_
-
 _This page is a work in progress_
 
-Starting with version 0.13, TSWoW supports creating custom transports that can carry players and creatures (boats, zeppelins).
+TSWoW supports creating custom transports that can carry players and creatures (boats, zeppelins).
 Transports, however, come with a lot of caveats and bugs that users should be aware of as they don't really follow the exact path specified for them,
 but interpolates between in an attempt to make them appear more smooth.
 However, often with custom transports the effect turns out the exact opposite and causes weird glitches, janky turns and teleporting between endpoints.

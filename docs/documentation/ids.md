@@ -24,7 +24,7 @@ Persistent IDs are stored in the file `datasets/<dataset>/ids.txt`, for most typ
 
 ### Strategies for handling ID gaps
 
-Since 0.13, TSWoW will attempt to automatically find and report gap errors. There are three primary ways a user may resolve issues like these, each fit for different situations. These examples will assume custom classes (the `ChrClasses` table), as that is by far the most common place where this happens, but the same logic will apply to any other table that does not allow discontinuity. Additionally, removing **any** kind of persistent entity, even those that do not cause gap errors, is very likely to require manually cleaning up the realms `tswow_characters_<realmname>` database.
+TSWoW will attempt to automatically find and report gap errors. There are three primary ways a user may resolve issues like these, each fit for different situations. These examples will assume custom classes (the `ChrClasses` table), as that is by far the most common place where this happens, but the same logic will apply to any other table that does not allow discontinuity. Additionally, removing **any** kind of persistent entity, even those that do not cause gap errors, is very likely to require manually cleaning up the realms `tswow_characters_<realmname>` database.
 
 #### Flushing out the ID file completely
 This is the simplest method, but also the most destructive. Simply type in `clear ids default` (or any other dataset name in place of 'default') and run your datascripts again. This will force the build script to recalculate all persistent ids, but will completely break the characters database. This is a good solution when a server is just in development because it's very easy to do.
