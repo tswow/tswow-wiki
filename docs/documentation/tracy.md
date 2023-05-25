@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tracy
+nav_order: 600
 ---
 
 # Tracy

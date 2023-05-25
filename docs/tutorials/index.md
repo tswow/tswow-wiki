@@ -11,4 +11,7 @@ This sections contains user-submitted tutorials, walkthroughs or example modules
 ## Table of Contents
 
 - [**baja-core**](./baja-core)
-    - A demo library that gives real world examples of TSWoW
+    - _A demo library that gives real world examples of TSWoW_
+
+- [**Transports**](./transports)
+    - _Guide to creating good custom transport paths_

@@ -1,10 +1,7 @@
 ---
+layout: default
 title: Livescripts (Lua)
-icon:
-  type: fa
-  name: fa-book
-excerpt: Lua-specific information for LiveScripts
-color: green
+nav_order: 320
 ---
 
 # Livescripts (Lua)

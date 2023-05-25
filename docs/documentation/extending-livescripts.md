@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Extending the LiveScript API
+nav_order: 330
 ---
 
 # Extending Livescripts

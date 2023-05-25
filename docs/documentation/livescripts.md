@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Live Scripts
+nav_order: 300
 ---
 
 # Livescripts

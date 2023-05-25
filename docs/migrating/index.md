@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Migrating
+nav_exclude: true
 ---
 
 # Migrating

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: AddOns
+nav_order: 400
 ---
 
 # AddOns

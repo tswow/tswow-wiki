@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Baja-Core
+nav_order: 1
 ---
 
 # Baja-Core
