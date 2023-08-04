@@ -8,6 +8,10 @@ nav_order: 2
 
 This guide will explain how to set up a fully working TSWoW development environment with a working server that you can connect to from your local computer.
 
+## Notes
+
+- For Windows, TSWoW **must** be installed to an NTFS drive (necessary for symlinks created by npm)
+
 ## Prerequisites
 
 You will need to install the following programs:
