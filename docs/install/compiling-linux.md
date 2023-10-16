@@ -6,6 +6,8 @@ nav_order: 3
 
 # Compiling (Linux)
 
+**Note: Linux support is currently very limited as we don't have anyone available to maintain it, issues are expected.**
+
 [Windows Guide](../compiling/)
 
 The purpose of this document is to:
@@ -14,39 +16,48 @@ The purpose of this document is to:
 
 2. Document important details and common issues
 
-This guide has been tested on `Debian` and `Ubuntu`.
+We currently run all our tests on **Ubuntu 22.04**, and the commands listed here assume you are using this version.
 
 ## Prerequisites
 Simply run these commands in a terminal. Before anything else, run `sudo apt-get update`.
 You should install dependencies in the order listed here, since they sometimes depend on each others.
 
-### Curl
+#### Curl
 ```
 sudo apt-get install curl
 ```
 
-### NodeJS
+#### NodeJS
 ```
-sudo curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+source ~/.bashrc
+nvm install 18
+nvm use 18
 ```
 
-### Git:
+#### Git:
 ```
 sudo apt-get install git
 ```
 
-### TrinityCore Dependencies
+### Cmake:
+
 ```
-sudo apt-get install git clang cmake make gcc g++ libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mariadb-server p7zip libmariadb-client-lgpl-dev-compat
+wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /etc/apt/trusted.gpg.d/kitware.gpg >/dev/null
+sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ jammy main'
+sudo apt update
+sudo apt install cmake
 ```
 
-### Misc Dependencies
+#### TrinityCore Dependencies
 ```
-sudo apt-get install bzip2-devel p7zip-full
+sudo apt-get update
+sudo apt-get install git clang cmake make gcc g++ libmysqlclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mysql-server p7zip
+sudo update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
+sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-## Building TSWoW
+### Building TSWoW
 
 When building TSWoW from source, we are concerned about three directories:
 
@@ -58,8 +69,8 @@ When building TSWoW from source, we are concerned about three directories:
 
 The source, build and install directories should all be **separate**. Do not place any of them inside any of the others. The recommended setup is to have a `tswow-root` containing all three folders.
 
-1. Run either of the following commands (_optionally in a new empty folder_):
-    - For bleeding edge: `git clone https://github.com/tswow/tswow.git --recurse`
+1. Run the following command (_optionally in a new empty folder_):
+    - `git clone https://github.com/tswow/tswow.git --recurse`
     - This will create the `source` directory, called "tswow".
     - This download is expected to take some time.
     - It is recommended to start developing on the latest release rather than the bleeding edge, as linux is often only tested for new releases.
@@ -94,7 +105,7 @@ sudo service mysql start
 
 Run the following command to create a new mysql user (replacing 'tswow' and 'password' with your own values):
 ```
-sudo mysql -u root -e "SET old_passwords=0; CREATE USER 'tswow' IDENTIFIED BY 'password'; GRANT ALL PRIVILEGES ON *.* TO 'tswow';"
+sudo mysql -u root -e "CREATE USER 'tswow' IDENTIFIED BY 'password'; GRANT ALL PRIVILEGES ON *.* TO 'tswow';"
 ```
 
 Inside your `install` directory, open `node.conf` and replace all instances of "tswow;password" with your own username/password created above. `Database.WorldSource`, `Database.WorldDest`, `Database.Auth` and `Database.Characters` should all be changed.
