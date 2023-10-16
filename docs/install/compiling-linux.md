@@ -22,12 +22,12 @@ We currently run all our tests on **Ubuntu 22.04**, and the commands listed here
 Simply run these commands in a terminal. Before anything else, run `sudo apt-get update`.
 You should install dependencies in the order listed here, since they sometimes depend on each others.
 
-#### Curl
+### Curl
 ```
 sudo apt-get install curl
 ```
 
-#### NodeJS
+### NodeJS
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 source ~/.bashrc
@@ -35,7 +35,7 @@ nvm install 18
 nvm use 18
 ```
 
-#### Git:
+### Git:
 ```
 sudo apt-get install git
 ```
@@ -49,7 +49,7 @@ sudo apt update
 sudo apt install cmake
 ```
 
-#### TrinityCore Dependencies
+### TrinityCore Dependencies
 ```
 sudo apt-get update
 sudo apt-get install git clang cmake make gcc g++ libmysqlclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mysql-server p7zip
@@ -57,7 +57,7 @@ sudo update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-### Building TSWoW
+## Building TSWoW
 
 When building TSWoW from source, we are concerned about three directories:
 
