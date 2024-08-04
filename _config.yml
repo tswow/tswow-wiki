@@ -8,7 +8,7 @@ webrick:
 
 # Theme settings
 site_author: TSWoW
-repo_url: 'https://github.com/tswow/tswow-wiki-new'
+repo_url: 'https://github.com/tswow/tswow-wiki'
 edit_on_github: true
 github_docs_folder: false
 sticky_navigation: true

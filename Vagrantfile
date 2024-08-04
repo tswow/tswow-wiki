@@ -2,10 +2,10 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/bionic64"
 
   # Adding a recognisable names to vagrant and the virtual machine
-  config.vm.define "tswow-wiki-new" do |t|
+  config.vm.define "tswow-wiki" do |t|
   end
   config.vm.provider "virtualbox" do |v|
-    v.name = "tswow-wiki-new"
+    v.name = "tswow-wiki"
   end
 
   # This Ubuntu image creates a ubuntu-bionic-18.04-cloudimg-console.log file

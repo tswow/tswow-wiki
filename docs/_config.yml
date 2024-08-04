@@ -1,10 +1,10 @@
 title: TSWoW Wiki
 description: TSWoW - WoTLK Modding Unleashed
-remote_theme: tswow/tswow-wiki-new
+remote_theme: tswow/tswow-wiki
 
 # Theme settings:
 site_author: TSWoW
-repo_url: "https://github.com/tswow/tswow-wiki-new"
+repo_url: "https://github.com/tswow/tswow-wiki"
 edit_on_github: true
 github_docs_folder: true
 sticky_navigation: true
