@@ -6,7 +6,7 @@ nav_order: 100
 
 # Modules
 
-A module in TSWoW is a single coherent modification of the World of Warcraft client and the TrinityCore server. The most basic command for creating a module is `module create module-name`
+A module in TSWoW is a single coherent modification of the World of Warcraft client and the TrinityCore server. The most basic command for creating a module is `create module module-name`
 
 ## Naming Conventions
 
