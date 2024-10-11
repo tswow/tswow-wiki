@@ -79,7 +79,7 @@ Default.Client = "C:\dev\wow\335\client"
 
 2. This terminal should be inside your TSWoW installation directory. If not, navigate to it using `cd` commands.
 
-3. Run the command `npm run start`. This will start the automatic installation and then start the server.
+3. Run the command `./start`. This will start the automatic installation and then start the server.
 
 4. Wait for the core database installation. This is a long process on the first installation and can take a long time depending on your machine. 20-30 minutes isn't rare. You know the installation is done when you see a message similar to `TrinityCore rev. 2a67a101096e 2021-04-23 09:24:53 +0200 (tswow branch) (Win64, RelWithDebInfo, Dynamic) (worldserver-daemon) ready...`.
 
