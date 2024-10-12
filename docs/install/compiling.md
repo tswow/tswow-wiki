@@ -18,7 +18,7 @@ The purpose of this document is to:
 
 - [Node.js (exactly version 20.18.0)](https://nodejs.org/dist/v20.18.0/node-v18.12.1-x64.msi)
 
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (this is **not** optional here)
 
 - [All the normal tswow dependencies](https://tswow.github.io/tswow-wiki/installation/repack)
 
