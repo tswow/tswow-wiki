@@ -30,7 +30,7 @@ You will need to install the following programs:
 
 - [VSCodium version 1.60](https://github.com/VSCodium/vscodium/releases/download/1.55.2/VSCodiumSetup-x64-1.55.2.exe)
 
-- (Optional) To compile **live scripts**, you will also need [Visual Studio 2022 Community](https://visualstudio.microsoft.com/downloads/). The whole first part of this tutorial series will only be using data scripts, so you don't need to install this yet.
+- (Optional) To compile **live scripts** to a C++ backend, you will also need [Visual Studio 2022 Community](https://visualstudio.microsoft.com/downloads/). The default livescript backend is Lua, so you rarely need this when just starting out.
 
     - <span>When installing Visual Studio, you will be asked to choose what packages to install in a window similar to the following. The **only** package that is necessary for building Live Scripts is `Desktop development with C++`, as shown below. The only toggle you need to select is in the red square, everything else can use default settings.</span>
 
@@ -79,7 +79,7 @@ Default.Client = "C:\dev\wow\335\client"
 
 2. This terminal should be inside your TSWoW installation directory. If not, navigate to it using `cd` commands.
 
-3. Run the command `./start`. This will start the automatic installation and then start the server.
+3. Run the command `./start` (if using cmd, run the command `start.bat`). This will start the automatic installation and then start the server.
 
 4. Wait for the core database installation. This is a long process on the first installation and can take a long time depending on your machine. 20-30 minutes isn't rare. You know the installation is done when you see a message similar to `TrinityCore rev. 2a67a101096e 2021-04-23 09:24:53 +0200 (tswow branch) (Win64, RelWithDebInfo, Dynamic) (worldserver-daemon) ready...`.
 
