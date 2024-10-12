@@ -114,3 +114,5 @@ Inside your `install` directory, open `node.conf` and replace all instances of "
 
 - `build release` doesn't work with a normal `install` directory. To build a release, you must run turn off the build script, change the install directory to an empty/non-existing directory in `source/build.yaml` and start the build script again.
     - <span>This new directory can **not** be open in VSCodium/VSCode.</span>
+
+- currently, [clang 18 is not supported](https://github.com/tswow/tswow/issues/855)
