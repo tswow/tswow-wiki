@@ -31,8 +31,8 @@ sudo apt-get install curl
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 source ~/.bashrc
-nvm install 18
-nvm use 18
+nvm install 20.18.0
+nvm use 20.18.0
 ```
 
 ### Git:
