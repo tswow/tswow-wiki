@@ -20,7 +20,7 @@ The purpose of this document is to:
 
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (this is **not** optional here)
 
-- [All the normal tswow dependencies](https://tswow.github.io/tswow-wiki/installation/repack)
+- [All the normal tswow dependencies](https://tswow.github.io/tswow-wiki/install/repack)
 
 All further dependencies are automatically installed by tswow.
 
