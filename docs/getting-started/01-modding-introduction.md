@@ -32,7 +32,7 @@ Modules can contain different types of _subfolders_ that are used to modify the 
 
 2. **assets**: folder that contains assets like 3D models, textures, music or world maps
 
-3. **datascrips**: special scripts used to generate _static game data_ such as Spells, Achievements, Items and Classes.
+3. **datascripts**: special scripts used to generate _static game data_ such as Spells, Achievements, Items and Classes.
     - For modding veterans: these scripts generate DBC and SQL data.
     - Static means that this is game data that doesn't change while the game itself is running.
 
