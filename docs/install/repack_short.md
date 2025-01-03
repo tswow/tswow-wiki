@@ -11,6 +11,7 @@ nav_order: 1
     - [Latest x64](https://aka.ms/vs/16/release/vc_redist.x64.exe)
     - [2013 x86](https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe)
     - [2013 x64](https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe)
+    - [Node >= 20](https://nodejs.org/en/download)
 
 - Install a World of Warcraft 3.3.5a client to `C:\wowdev\client` (`C:\wowdev\client\wow.exe` should exist)
 - [Download tswow](https://github.com/tswow/tswow/releases/latest) and extract it to `C:\wowdev\tswow` (`C:\wowdev\tswow\node.conf` should exist)
