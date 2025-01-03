@@ -82,7 +82,7 @@ These functions will iterate over every single entity of a given type in the gam
 import { std } from "wow/wotlk";
 
 let hearthstone = std.Items.find(item=>item.Name.enGB.get() == 'Hearthstone')
-if(item)
+if(hearthstone)
 {
     console.log('Found hearthstone with id ' + hearthstone.ID)
 }
