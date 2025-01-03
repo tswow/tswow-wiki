@@ -30,6 +30,8 @@ You will need to install the following programs:
 
 - [VSCodium version 1.60](https://github.com/VSCodium/vscodium/releases/download/1.55.2/VSCodiumSetup-x64-1.55.2.exe)
 
+- [Node >= 20](https://nodejs.org/en/download)
+
 - (Optional) To compile **live scripts** to a C++ backend, you will also need [Visual Studio 2022 Community](https://visualstudio.microsoft.com/downloads/). The default livescript backend is Lua, so you rarely need this when just starting out.
 
     - <span>When installing Visual Studio, you will be asked to choose what packages to install in a window similar to the following. The **only** package that is necessary for building Live Scripts is `Desktop development with C++`, as shown below. The only toggle you need to select is in the red square, everything else can use default settings.</span>
