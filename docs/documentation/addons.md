@@ -16,8 +16,8 @@ _Please note: The sources TSWoW has used to generate type definitions come from 
 
 ## Files
 
-A single module can contain at most a single addon, which is located at `modulename/addons`. Users can generate this directory using the command `create addon modulename`.
-The entrypoint for all addons is the file `addons/modulename-addon.ts`, but users may create any other amount typescript files under this directory and import them as you normally would in TypeScript.
+A single module can contain at most a single addon, which is located at `modulename/addon`. Users can generate this directory using the command `create addon modulename`.
+The entrypoint for all addons is the file `addon/addon.ts`, but users may create any other amount typescript files under this directory and import them as you normally would in TypeScript.
 
 Addons can also access files in the `modulename/shared` directory. Since the `shared` directory is also used by live scripts, the coding style here must be valid for both addons and live scripts.
 
@@ -27,9 +27,9 @@ When an addon is generated, the following necessary files are automatically crea
 
 - `global.d.ts`: Contains type definitions for all Blizzard functions and types accessible from lua.
 
-- `lib/Events.ts`: Contains TSWoWs custom addon event and communications systems.
-
 - `addon.ts`: Is always the first real entrypoint of your addon. It is the only transpiled file that is automatically executed.
+
+- `tsconfig.json`: A TypeScript configuration file.
 
 ## TypeScript
 
