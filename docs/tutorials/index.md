@@ -19,5 +19,5 @@ This sections contains user-submitted tutorials, walkthroughs or example modules
 - [**Modding with Magic: Custom Rare Mob**](./modding-with-magic)
     - _TSWoW video walkthrough for creating a custom world mob._
 
-- [**CLient <-> Server Communications: Example Modding**](./example-messaging)
+- [**Client <-> Server Communications: Example Messaging**](./example-messaging)
     - _Demo showcasing how to utilize ClientExtensions dll._
