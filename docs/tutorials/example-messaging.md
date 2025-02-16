@@ -10,6 +10,4 @@ This is a example repository for creating a fully functional client to server co
 
 This repository requires enabling ClientExtensions in your installation's dataset.conf file.
 
-<div style="text-align: center;">
-<iframe width="630" height="470" allowfullscreen="allowfullscreen" src="https://github.com/TesterWoWDev/Example-Messaging"></iframe>
-</div>
+## [**Download from GitHub**](https://github.com/TesterWoWDev/Example-Messaging)
